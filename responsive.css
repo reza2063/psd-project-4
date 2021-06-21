@@ -1,0 +1,776 @@
+
+/*==============================
+Responsive start
+======================================*/
+
+
+
+
+/*===============================
+ X-Small devices (portrait phones, less than 576px)
+=======================================*/
+
+@media (max-width: 575px) { 
+
+
+#section-eight{
+	display:none!important;
+}
+
+	
+.hamburger-menu-conteiner{
+	display:flex;
+}
+
+#check{
+	display:block;
+}	
+
+.nav-btn{
+	 position:fixed;
+     height:100vh;
+     top: 64px;
+	 left:0;
+	 width:100%;
+	 background:#69bde7;
+	 flex-direction:column;
+	 align-items:center;
+	 justify-content:space-between;
+	 overflow-x:hidden;
+	 overflow-y:auto;
+	 transform:translateX(100%);
+	 transition:0.65s;
+}
+
+#check:checked ~ .nav-btn{
+	 transform:translateX(0);	
+}
+
+
+#check:checked ~ .nav-btn .nav-link,
+#check:checked ~ .nav-btn .log-sing{
+	 animation: animation .5s ease forwards var(--i);
+}
+
+
+.nav-links{
+	flex:initial;
+	width:100%;
+	margin-bottom: 10px;
+}
+
+.nav-links > ul {
+    display: block;
+}
+
+		
+.log-sing{
+	flex:initial;
+	width:100%;
+    padding-bottom:80vh;
+   	opacity:0;
+	transform:translateY(15px);
+}	
+
+
+.nav-link {
+	margin:0;
+    width: 100%;
+    display: grid;
+    place-content: center;
+	opacity:0;
+	cursor:pointer;
+	transform:translateY(15px);
+}
+
+.nav-link > a{
+	line-height:1;
+	padding:1.6rem 2rem;
+}
+
+
+.nav-link:hover{
+	background:#50a9d6;
+	text-decoration:none;
+}	
+
+
+.nav-link a:hover{
+    background:none;
+	transform:none;
+	text-decoration:none;
+}
+
+.hero_area .sub_hero .hero_text {
+    bottom:10px;
+    right:5px;
+}	
+
+.hero_area .sub_hero .hero_text h2{
+	font-size:1.5rem;
+	padding-bottom: 0px
+}	
+	
+.hero_area .sub_hero .hero_text h4{
+	font-size:.9rem;
+}	
+
+.team_area .team_info{
+	width:90%;
+}
+
+.only_div{
+	width:50%;
+}
+
+.team_area .team_info h2{
+	padding:1rem 0;
+}
+
+.team_area .team_info p {
+    padding-bottom: 1rem;
+}
+
+#section-two{
+	padding-bottom:0%;
+}
+
+#section-three , #section-four{
+	background:#000;
+}
+
+
+.info_area .info_text .single_item .single_text{
+	padding:.1rem;
+}
+	
+.info_area .info_text{
+	width:100%;
+}	
+	
+.info_area .info_text .single_item {
+    width:80%;
+    float: none;
+    margin: 2rem auto;
+}	
+	
+.info_area .info_text .single_item:last-child{
+	margin:0 auto;
+}	
+
+.customer_area{
+	border-bottom: 2px solid #998f8f5e;
+}
+	
+.customer_area .custoper_contant {
+    width: 100%;
+    margin: 0;
+	
+}
+
+.customer_area .custoper_contant .our_won {
+    width: 100%;
+    float: none;
+    margin: 1rem 0;
+}	
+
+	
+	
+.contact_area .submit_box {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}	
+	
+.contact_area .submit_box .contact_info {
+    width: 90%;
+}	
+	
+.contact_area .submit_box .submit_info .name, #select_catagory, .phone, #select_city {
+    width: 80%;
+    float: none;
+    margin: 0.9rem 0;
+
+}	
+	
+.contact_area .submit_box .submit_info .email , .massage{
+   width: 80%;
+    float: none;
+    margin: 0.9rem 0;
+	
+}	
+
+.gallery_area .gallery_info{
+	width:90%;
+}
+
+.gallery_area .gallery_info h2{
+	font-size:1.9rem;
+}
+
+
+.contact_area .submit_box .submit_info .contact_btn{
+     margin-right:10%;	
+}	
+	
+.about_area .about_contact {
+    width: 100%;
+    margin: 0;
+}
+	
+.about_area .about_contact .about_img_one {
+    width: 100%;
+    height: 100%;
+    margin-right: 0;
+    float: none;
+}
+
+.about_area .about_contact .about_team {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.about_area .about_contact .about_team .about_info_box {
+    width:70%;
+    float: none;
+    padding: 0%;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+}
+
+.about_area .about_contact .about_team .about_info_box .about_img{
+	width:55%;
+	height:95%;
+	
+}
+
+.footer_area .footer_contact {
+    width: 100%;
+    margin: 0
+}
+
+.footer_area .footer_contact .single_footer {
+    width:90%;
+    padding: 0rem;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.footer_area .footer_contact .single_footer h2{
+    padding-top: 2rem;	
+    padding-bottom: 5px;
+}
+
+.only_div3 {
+	margin:10px auto;
+}
+
+.social_area .hero .social-links a{
+	margin:8px;
+}
+	
+	
+	
+	
+}
+
+
+
+
+/*=================================
+Small devices (landscape phones, less than 768px)
+=======================================*/
+
+
+@media ( min-width: 576px ) and (max-width:767px ){
+	
+.hamburger-menu-conteiner{
+	display:flex;
+}
+
+#check{
+	display:block;
+}	
+
+.nav-btn{
+	 position:fixed;
+	 height:100vh;
+	 top:63px;
+	 left:0;
+	 width:100%;
+	 background:#69bde7;
+	 flex-direction:column;
+	 align-items:center;
+	 justify-content:space-between;
+	 overflow-x:hidden;
+	 overflow-y:auto;
+	 transform:translateX(100%);
+	 transition:0.65s;
+}
+
+#check:checked ~ .nav-btn{
+	 transform:translateX(0);	
+}
+
+
+#check:checked ~ .nav-btn .nav-link,
+#check:checked ~ .nav-btn .log-sing{
+	 animation: animation .5s ease forwards var(--i);
+}
+
+
+.nav-links{
+	flex:initial;
+	width:100%;
+	margin-bottom: 10px;
+}
+
+.nav-links > ul {
+    display: block;
+}
+
+		
+.log-sing{
+	flex:initial;
+	width:100%;
+	padding-bottom:80vh;
+   	opacity:0;
+	transform:translateY(15px);
+}	
+
+
+.nav-link {
+	margin:0;
+    width: 100%;
+    display: grid;
+    place-content: center;
+	opacity:0;
+	cursor:pointer;
+	transform:translateY(15px);
+}
+
+.nav-link > a{
+	line-height:1;
+	padding:1.6rem 2rem;
+}
+
+
+.nav-link:hover{
+	background:#50a9d6;
+	text-decoration:none;
+}	
+
+
+.nav-link a:hover{
+    background:none;
+	transform:none;
+	text-decoration:none;
+}
+
+
+.hero_area .sub_hero .hero_text {
+    bottom: 2rem;
+    right: 2rem;
+}	
+
+.hero_area .sub_hero .hero_text h2{
+    font-size: 2.3rem;
+    padding-bottom: 0rem;
+}
+	
+.hero_area .sub_hero .hero_text h4{
+	font-size: 1.2rem;
+}	
+
+.team_area .team_info{
+	width:90%;
+}
+
+.only_div{
+	width:40%;
+}
+
+.team_area .team_info h2{
+	padding:1rem 0;
+}
+
+.team_area .team_info p {
+    border-bottom: 1px solid #b3b3b3;
+    padding-bottom: 1rem;
+}
+
+#section-two{
+	padding-bottom:0%;
+}
+
+#section-three{
+	background:#000;
+}
+
+..info_area .info_text{
+	width:90%;
+}
+
+
+.customer_area .custoper_contant {
+    width: 90%;
+}
+	
+	
+.contact_area .submit_box {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}	
+	
+.contact_area .submit_box .contact_info {
+    width:60%;
+}	
+	
+.contact_area .submit_box .submit_info .name, #select_catagory, .phone, #select_city {
+    width:60%;
+    float: none;
+    margin: 0.9rem 0;
+
+}	
+	
+.contact_area .submit_box .submit_info .email , .massage{
+    width:60%;
+    float: none;
+    margin:1rem 5rem;
+	
+}	
+
+.gallery_area .gallery_info{
+	width:90%;
+}
+
+.gallery_area .gallery_info h2{
+	font-size:1.9rem;
+}
+
+
+.contact_area .submit_box .submit_info .contact_btn{
+     margin-right:20%;	
+}	
+	
+.about_area .about_contact {
+    width: 100%;
+    margin: 0;
+}
+	
+.about_area .about_contact .about_img_one {
+    width: 100%;
+    height: 100%;
+    margin-right: 0;
+    float: none;
+}
+
+.about_area .about_contact .about_team {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.about_area .about_contact .about_team .about_info_box {
+    width:70%;
+    float: none;
+    padding: 0%;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+}
+
+.about_area .about_contact .about_team .about_info_box .about_img{
+	width:50%;
+	height:95%;
+	
+}
+
+.footer_area .footer_contact {
+    width: 100%;
+    margin: 0
+}
+
+.footer_area .footer_contact .single_footer {
+    width: 19%;
+    padding: 1rem;
+    float: left;
+    margin: 0;
+    text-align: none;
+}
+
+
+.footer_area .footer_contact .single_footer h2{
+    padding-top: 2rem;	
+    padding-bottom: 5px;
+	font-size:1.1rem;
+}
+
+
+.social_area .hero .social-links a{
+	margin:8px;
+}
+	
+	
+	
+	
+	
+
+}
+
+
+
+/*=================================
+Medium devices (tablets, less than 992px)
+=======================================*/
+
+
+@media ( min-width: 768px) and (max-width: 991px ){
+	
+
+#section-eight{
+	display:none!important;
+}
+
+
+
+	
+.hamburger-menu-conteiner{
+	display:flex;
+}
+
+#check{
+	display:block;
+}	
+
+.nav-btn{
+	 position:fixed;
+	 height:100vh;
+	 top:63px;
+	 left:0;
+	 width:100%;
+	 background:#69bde7;
+	 flex-direction:column;
+	 align-items:center;
+	 justify-content:space-between;
+	 overflow-x:hidden;
+	 overflow-y:auto;
+	 transform:translateX(100%);
+	 transition:0.65s;
+}
+
+#check:checked ~ .nav-btn{
+	 transform:translateX(0);	
+}
+
+
+#check:checked ~ .nav-btn .nav-link,
+#check:checked ~ .nav-btn .log-sing{
+	 animation: animation .5s ease forwards var(--i);
+}
+
+
+.nav-links{
+	flex:initial;
+	width:100%;
+	margin-bottom: 10px;
+}
+
+.nav-links > ul {
+    display: block;
+}
+
+
+
+.nav-link {
+	margin:0;
+    width: 100%;
+    display: grid;
+    place-content: center;
+	opacity:0;
+	cursor:pointer;
+	transform:translateY(15px);
+}
+
+.nav-link > a{
+	line-height:1;
+	padding:1.6rem 2rem;
+}
+
+
+.nav-link:hover{
+	background:#50a9d6;
+	text-decoration:none;
+}	
+
+
+.nav-link a:hover{
+    background:none;
+	transform:none;
+	text-decoration:none;
+}
+		
+.log-sing{
+	flex:initial;
+	width:100%;
+	padding-bottom:80vh;
+   	opacity:0;
+	transform:translateY(15px);
+}	
+
+.hero_area .sub_hero .hero_text{
+	bottom:8%;
+}
+
+.hero_area .sub_hero .hero_text h2{
+	font-size:2rem;
+}
+
+.hero_area .sub_hero .hero_text h4{
+	font-size:1rem;
+}
+
+.team_area .team_info p {
+    border-bottom: 1px solid #b3b3b3;
+    padding-bottom: 1rem;
+}
+
+#section-three {
+    background: #000;
+
+}
+
+.contact_area .submit_box .contact_info{
+	width:80%;
+}
+
+.contact_area .submit_box .submit_info .name, #select_catagory, .phone, #select_city{
+	width:42%;
+	margin:1rem;
+}
+
+.contact_area .submit_box .submit_info .email, .massage{
+	margin:1rem;
+}
+
+.contact_area .submit_box .submit_info .contact_btn{
+	margin-right:6%;
+}
+
+.about_area .about_contact .about_team .about_us h2 {
+    font-size: 2rem;
+    padding: .5rem 0;
+}
+
+
+.about_area .about_contact .about_team .about_us p {
+    padding: 0px 1rem;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.about_area .about_contact .about_team .about_info_box {
+    width:29%;
+    padding-bottom: 1rem;
+}
+
+.about_area .about_contact .about_team .about_info_box .about_img{
+	height:86%;
+}
+
+.only_div2{
+	height:20px;
+}
+
+.about_area .about_contact .about_team .about_info_box h3 {
+    padding: .4rem;
+    font-size: .5rem;
+}
+
+.gallery_area .gallery_info{
+	width:70%;
+}
+
+.footer_area .footer_contact .single_footer h2{
+	font-size:1.1rem;
+	padding-bottom:0;
+}
+
+.footer_area .footer_contact .single_footer {
+    width: 18%;
+    padding: 1rem;
+}
+
+
+
+
+	
+
+}
+
+
+
+
+/*=================================
+Large devices (desktops, less than 1200px)
+=======================================*/
+
+@media ( min-width: 992px) and (max-width: 1199px) { 
+
+.hero_area .sub_hero .hero_text {
+    bottom: 6%;
+    right: 5%;
+}
+
+.contact_area .submit_box .contact_info {
+    width: 80%;
+}
+
+
+.about_area .about_contact .about_team .about_info_box{
+	padding-bottom:1rem;
+}
+
+.footer_area .footer_contact .single_footer {
+    width: 19%;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+}
+
+
+/*=================================
+X-Large devices (large desktops, less than 1400px)
+=======================================*/
+
+@media ( min-width:  1200px)and (max-width: 1399px) { 
+
+
+
+
+
+
+
+
+}
+
+
+/*=================================
+  XX-Large devices (larger desktops)
+No media query since the xxl breakpoint has no upper bound on its width
+=======================================*/
+
+/*pothom a je coding korechi tai hobe
+ notun kore kichu likhte hobe na akhane
+*/
+
+
